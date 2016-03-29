@@ -7,6 +7,7 @@ package StudentLab;
 
 import java.text.SimpleDateFormat;
 import java.time.*;
+import java.util.Date;
 
 /**
  *
@@ -46,6 +47,12 @@ public class DateUtilities {
                     + " " + date.getDayOfMonth() + ", " + date.getYear();
             return formatDate;
         }
+    }
+    
+    public LocalDate toDate(String date){
+        LocalDate date2 = LocalDate.parse(date);
+        
+        return date2;
     }
     
     /**
