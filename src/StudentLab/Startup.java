@@ -61,6 +61,7 @@ public class Startup {
         LocalDateTime d2 = LocalDateTime.now();
         LocalDateTime d3 = d2.plusWeeks(2).plusDays(3);
         System.out.println(utilities.getDaysUntil(d2, d3));
-        //System.out.println(utilities.toDate("01/5/2016"));
+        System.out.println(utilities.toDate("2016-04-05"));
+        System.out.println(utilities.Date());
     }
 }
